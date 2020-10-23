@@ -1,6 +1,8 @@
-
 h1 {
   font-size: 54px;
+  font-family: monospace;
+  font-weight: bolder;
+  font-style: oblique;
   text-align: center;
   color: white;
   border: 12px solid lime;
@@ -19,11 +21,12 @@ p {
   text-align: center;
   font-weight: bold;
   color: white;
+  font-size: 18px;;
 }
 
 .options ul {
   text-align: center;
-  font-size: large;
+  font-size: x-large;
   font-weight: bolder;
   list-style-position: inside;
   background-image: url(https://media1.tenor.com/images/506efe06ecf4472b28462478877b2dd6/tenor.gif?itemid=8491515);
@@ -33,17 +36,22 @@ p {
   color: white;
   position: relative;
   margin: 0;
+  border: 6px solid lime;
+  padding:8px;
+  border-style: dashed;
 }
 
 #code-lang {
   text-align: center;
   color: white;
+  font-size: 18px;
 }
 
 .btn {
   display: inline-block;
   background-color: black;
   color: white;
+  font-size: 18px;;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: oblique;
   border-radius: 50%;
@@ -62,16 +70,20 @@ p {
 
 #python {
   display: none;
+  color:white;
 }
 
 #ruby {
   display: none;
+  color:white;
 }
 
 #javascript {
   display: none;
+  color:white;
 }
 
 #go {
   display: none;
+  color:white;
 }
