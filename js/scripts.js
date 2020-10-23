@@ -10,10 +10,13 @@ $(document).ready(function() {
     const careerStr = $("select#career").val();
     const career = parseInt(careerStr);
 
+    const foodStr = $("select#food").val();
+    const food = parseInt(foodStr);
+
     const quoteStr = $("select#quote").val();
     const quote = parseInt(quoteStr);
 
-    const result = music + movie + career + quote;
+    const result = music + movie + career + food + quote;
 
     if (result <= 5) {
       $("#python").show()
@@ -21,16 +24,16 @@ $(document).ready(function() {
       $("#javascript").hide()
       $("#go").hide()
     } else if (result > 5 && result <= 10) {
-      $("#ruby").show()
       $("#python").hide()
       $("#javascript").hide()
       $("#go").hide()
+      $("#ruby").show()
     } else if (result > 10 && result <= 15) {
-      $("#javascript").show()
       $("#python").hide()
       $("#ruby").hide()
       $("#go").hide()
-    } else if (result > 15 && result <= 20) {
+      $("#javascript").show()
+    } else {
       $("#go").show()
       $("python").hide()
       $("#ruby").hide()
