@@ -40,3 +40,19 @@ p {
   border-radius: 50%;
   transition-duration: 1s;
 }
+
+#python {
+  display: none;
+}
+
+#ruby {
+  display: none;
+}
+
+#javascript {
+  display: none;
+}
+
+#go {
+  display: none;
+}
