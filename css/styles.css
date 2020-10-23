@@ -31,3 +31,12 @@ p {
   border: 4px solid gold;
   transition-duration: 0.5s;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50%;
+  transition-duration: 1s;
+}
